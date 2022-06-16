@@ -29,7 +29,7 @@ public class BasicStringDemo {
     }
 
     static void mutableString() {
-        StringBuffer stringBuffer = new StringBuffer("Hello ");
+        StringBuffer stringBuffer = new StringBuffer("Hello");
         stringBuffer.append("World");
         System.out.println(stringBuffer);
     }
